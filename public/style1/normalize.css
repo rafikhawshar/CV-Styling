@@ -69,7 +69,7 @@ main {
  */
 
 figure {
-  margin: 1em 40px;
+  margin: 0;
 }
 
 /**
@@ -447,4 +447,29 @@ template {
 
 [hidden] {
   display: none;
+}/* Add grey background to header */
+header {
+  background-color: grey;
 }
+
+/* Style student name */
+header h1 {
+  /* Add your styles here */
+}
+
+/* Style codes */
+header p:first-child {
+  /* Add your styles here */
+}
+
+/* Style image */
+header img {
+  width: 110px;
+  height: 110px;
+}
+
+/* Style email, Skype, etc. */
+header p:nth-child(n+3) {
+  /* Add your styles for these elements here */
+}
+
